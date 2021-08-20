@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px auto;
+            padding: 0px;
+           
+        }
+        .main{
+            text-align: center;
+          /* border: 1px solid black; */
+           width: 70%;
+            
+           
+        }
+        p + div {
+            margin: 10px;
+          /* border: 1px solid black;*/
+           
+           margin: 20px auto ;
+        }
+        .main > h2, main > p {
+            margin: 20px auto;
+            font-size: 30px;
+        }
+        #main-box {
+           width: 80%;
+           display: flex;
+          margin-top: 70px;
+         /*   border: 1px solid black;*/
+            text-align: center;
+            justify-content: center;
+           
+            
+        }
+        .box1 {
+           
+            
+            border-radius: 9px;
+            margin: 20px;
+            background-color: white;
+            
+        }
+        .box1 > img {
+           
+            padding: 20px;
+            width: 200px;
+            height:150px;
+        }
+        .box1> p {
+            padding: 10px;
+        }
+        .main2 {
+            width: 80%;
+            margin-top: 200px;
+          
+           
+            text-align: center;
+
+        }
+        .input {
+           
+            display: flex;
+        }
+        .place {
+            font-size: 20px;
+            width: 400px;
+            margin: 10px;
+            border-radius: 6px;
+            border-left: 7px solid rgb(59, 59, 212);
+            padding: 10px;
+        }
+        #msgheights{
+            height: 100px;
+        }
+        button {
+            margin: 20px;
+            width: 500px;
+            font-size: 30px;
+            background-color: rgb(61, 61, 224);
+            padding: 10px;
+            color: white;
+        }
+        button:hover {
+            background-color:white;
+            color:black;
+            border: 1px solid blue;
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2>Become an Affiliate, <br/> Refer a Customer & Get <br/>Rewarded</h2>
+        <p>Affiliate Marketting Made Easy.<br/> Get 20% recurring commission for each referred <br/>customer</p>
+        <div>
+            <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/referral_banner.png"/>
+        </div>
+       
+    </div>
+    <div id="main-box">
+        <div class="box1">
+           
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/referral_banner.png" />
+
+          
+            <p>Get 20% recurring commission for each referred customer without any upper limit.</p>
+        </div>
+        <div class="box1">
+            
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/referral_banner_2.png"/>
+           
+            <p>Earn milestone rewards, Get 30$ as a bonus reward whenever you refer 10 customers.</p>
+        </div>
+        <div class="box1">
+         
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/referral_banner_3.png"/>
+          
+            <p>Become a super-affiliate by recruiting other affiliates and earn 20% commission of their earnings.</p>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="input">
+            <div id="inputbox1">
+                <input type="text" placeholder="Name" class="place"/><br/>
+                <input type="text" placeholder="Email" class="place"/><br/>
+                <input type="text" placeholder="Phone number" class="place"/>
+            </div>
+            <div id="inputbox2">
+                <input type="text" placeholder="Message" class="place" id="msgheights"/><br/>
+                <input type="text" placeholder="Website" class="place"/>
+            </div>
+        </div>
+        <button>Send Message</button>
+    </div>
+</body>
+</html>
