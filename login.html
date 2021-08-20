@@ -18,7 +18,7 @@
         }
         .main {
             background-color: rgba(251,253,254,255);
-            width: 70%;
+            width: 60%;
            height: 70%;
             margin:  50px auto;
        
@@ -90,7 +90,7 @@
             border: 1px solid  rgb(42, 42, 233) ;
             width: 400px;
             padding: 5px;
-            margin: 10px;
+            margin: 40px;
             border-radius: 7px;
         }
         button:hover {
@@ -99,13 +99,13 @@
         }
         #l2 {
             width: 30%;
-            background-color:rgba(30,35,220,255);
+            background-color:rgba(2,5,219,255);
             border-radius: 0px 0px 10px;
            
         }
         #l2 > img {
             border-radius: 0px 10px 10px 0px;
-            height: 500px;
+            height: 400px;
            
             width: 100%;
         }
@@ -115,11 +115,20 @@
         #overflow {
             display: block;
             overflow-y: scroll;
-            background-color:rgb(30,34,222);
+            background-color:rgba(2,5,219,255);
             color: white;
             height: 200px;
+            text-align: left;
+            margin-left: 10px;
+            margin-right: 10px;
+            scrollbar-color: rgba(210,210,210,255) white;
+            
         }
-
+        #latest {
+            color: white;
+            text-align: left;
+            margin-left: 10px;
+        }
     </style>
 </head>
 <body>
@@ -150,12 +159,25 @@
         </div>
 
         <div id="l2">
-       <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/login_right_side_bg.png"/>
+      
+            <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/login_right_side_bg.png"/>
        <div>
-        <P id="overflow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores nihil tenetur dolorum corrupti repellendus veniam suscipit rerum deleniti, ab eum reiciendis id magnam quisquam! Ducimus, esse ratione. Laborum, incidunt!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa suscipit ad quae est sint quisquam quis porro recusandae velit voluptas impedit, modi itaque corporis ut autem quidem odio nemo laudantium.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas beatae cumque modi, nesciunt perspiciatis eveniet? Pariatur, saepe suscipit. Repudiandae, omnis iste! Molestias reiciendis quod dolores id veritatis ipsum deleniti facere?
-        </P>
+           <h3 id="latest"> Latest Updates</h3>
+        <div id="overflow">
+
+          
+            <p> Android App <br/>SmatBot mobile application is now live on the android play store. Your live agents can now answer user queries on the go.</p>
+            <hr/>
+           <p> Departments<br/>
+
+          Organise your live chat agents based on their roles and responsibilities like sales, support, tech etc.
+       
+            </p>
+            <hr/>
+           
+
+            <p> Share Files In Live Chat<br/>Let users and live agents comfortably share files between them.</p>
+            </div>
        </div>
       
 
