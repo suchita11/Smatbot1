@@ -43,7 +43,11 @@
         float: left;
     }
     .trusted-by > div{
-        width: 25%;
+        width: 23.41%;
+        float: left;
+    }
+    .right-panel {
+        width: 33.33%;
         float: left;
     }
 }
@@ -202,8 +206,8 @@
     display: block;
 }
 .input-div {
-    margin-top: 7.5px;
-    margin-bottom: 7.5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     width: 80%;
     text-align: center;
     position: relative;
@@ -280,6 +284,11 @@
     font-size: 14px;
 }
 .inline-block {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
 }
 .checkbox {
@@ -316,17 +325,22 @@
 }
 .captcha-img {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 15px auto;
     width: 40%;
     height: 40%;
     max-width: 100%;
     max-height: 100%;
 }
 .sbtn {
-    width: 70%;
+    width: 80%;
     margin-top: 0px;
     margin-bottom: 5px;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    box-sizing: border-box;
 }
 .button {
     width: 100%;
@@ -339,7 +353,17 @@
     color: white;
     padding: 0px;
     background-color: rgb(70, 93, 239);
-    align-items: flex-start;
+}
+.already {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
 }
 .trusted-by {
     margin-top: 10px;
@@ -350,10 +374,11 @@
     padding-left: 35px;
     display: block;
     text-align: center;
+    box-sizing: border-box;
 }
 .trusted-by > div {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
     position: relative;
@@ -371,4 +396,74 @@
 }
 .trust-img:hover {
     filter: grayscale(0);
+}
+.right-panel {
+    background-color: rgb(70, 93, 239);
+    position: relative;
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0 12px 12px 0;
+    min-height: 1px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.center {
+    width: 100%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+form::after {
+    clear: both;
+    display: table;
+}
+.freeTrialHeader {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+.freeTrialHeader > h3 {
+    font-size: 30px;
+    color: white;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+    display: block;
+    box-sizing: border-box;
+}
+.freeTrialList {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding-left: 20px;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
+.freeTrialList > li {
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    text-align: left;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-size: 16px;
+    width: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 0;
 }
