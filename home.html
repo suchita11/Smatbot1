@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./home_style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div>
+            <img class="img"
+                src="https://s3.ap-south-1.amazonaws.com/custpostimages/sb_images/SB_logo_horizontal_text.png"
+                alt="smatbot" />
+        </div>
+        <div class="remain_space"></div>
+        <div class="nav">
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">WhatsApp</a></li>
+                <li> <a href="#">Templates</a></li>
+                <li> <a href="#">Pricing</a></li>
+                <li id="partners"> <a href="#">Partners </a><span class="down-arrow">&#129171</span></li>
+                <li> <a href="#">Login</a></li>
+                <li>
+                    <div class="freetrial_btn">
+                        <button><a>FREE TRIAL</a></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="request_btn">
+                        <button><a>REQUEST DEMO</a></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="aff_res display" id="aff_res">
+            <ul>
+                <li><a href="#">Affiliate</a></li>
+                <li><a href="#">Reseller</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="box-1">
+            <div class="box-1_left">
+                <h1> Build ChatBots for all your<br> business needs</h1>
+                <h6>No coding, Easy customization, Sensible pricing</h6>
+                <p class="lineh-20">SmatBot is a conversational bot building platform to create customizable chatbots
+                    for Lead
+                    generation, Live chat support, Interactive Landing Pages, Surveys, Enquiries, Appointments, Feedback
+                    and Suggestions for your business.</p>
+                <h1 class="font-30 mt-30">Try smatbot for free</h1>
+                <div class="mobile_input">
+                    <span class="flag"><img
+                            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" /></span>
+                    <input placeholder="Enter Your Mobile" id="mobile_input" />
+                    <button class="start_btn">Get Started</button>
+                </div>
+                <div class="video-demo">
+                    <h1 class="font-30 mt-30">Video Demo</h1>
+                    <img class="video-img"
+                        src="data:image/png;base64,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" />
+                </div>
+            </div>
+            <div class="box-1_right">
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/main_laptop.png" />
+            </div>
+        </div>
+        <div>
+            <img id="wave" src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/waves_whatsapp_bg.png" />
+        </div>
+    </div>
+    <div class="clients">
+        <div>
+            <h1 class="mt-10">23 Lakh+</h1>
+            <span>Chats Initiated</span>
+        </div>
+        <div>
+            <h1 class="mt-10">5.5 Lakh+</h1>
+            <span>Visistors Engaged</span>
+        </div>
+        <div>
+            <h1 class="mt-10">3.5 Lakh+</h1>
+            <span>Leads Generated</span>
+        </div>
+    </div>
+    <div class="company_clients">
+        <h1>Our Cleintele</h1>
+        <div class="view-port">
+            <marquee width="120%" direction="left" class="client_img">
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/pearl_yamaha.png" />
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/easy_pay.png" />
+                <img
+                    src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/Goa_electricity_dept.png" />
+                <img
+                    src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/mahindra_logistics.png" />
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/acl_digital.png" />
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/hysus.png" />
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/hysus.png" />
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/client_logos/oakridge.png" />
+            </marquee>
+        </div>
+    </div>
+    <div class="omnichannel_container">
+        <h6>OMNICHANNEL CHATBOT</h6>
+        <span>Unified Chatbot Experience For Website, Whatsapp, Blog, Facebook Messenger And Mobile Applications</span>
+        <div class="omni-flex">
+            <div class="omni_l">
+                <h4>Website Chatbot</h4>
+                <p>Install SmatBot on your website and automate the engagement with your visitors.</p>
+                <h4>WhatsApp Chatbot</h4>
+                <p>Automate your whatsapp business conversations through SmatBot.</p>
+                <h4>Blog Chatbot</h4>
+                <p>Install SmatBot on your blog and collect feedback, conduct surveys from your readers.</p>
+                <h4>Facebook Messenger Chatbot</h4>
+                <p>Install SmatBot on your messenger to automate the engagement with your audience.</p>
+                <h4>Mobile app Chabot</h4>
+                <p>Integrate and Install SmatBot into your mobile application and never worry about giving customer
+                    support again.</p>
+            </div>
+            <div class="omni_r">
+                <img
+                    src="https://custpostimages.s3.ap-south-1.amazonaws.com/sb_images/channel_smatbot_compressed_final.png" />
+            </div>
+        </div>
+    </div>
+    <div class="smat_aval">
+        <span>SmatBot Is Now Available On</span>
+        <div class="smat_aval-flex">
+            <div class="smat_aval-flex-item">
+                <img src="https://s3.ap-south-1.amazonaws.com/custpostimages/crm_networks/freshdesk.png" />
+                <span>Freshdesk Marketplace</span>
+            </div>
+            <div class="smat_aval-flex-item">
+                <img src="https://s3.ap-south-1.amazonaws.com/custpostimages/crm_networks/zapier.png" />
+                <span>Zapier App Store</span>
+            </div>
+            <div class="smat_aval-flex-item">
+                <img src="https://s3.ap-south-1.amazonaws.com/custpostimages/crm_networks/freshsales.png" />
+                <span>Freshsales Marketplace</span>
+            </div>
+            <div class="smat_aval-flex-item">
+                <img src="https://custpostimages.s3.ap-south-1.amazonaws.com/crm_networks/zoho.png" />
+                <span>Zoho Marketplace</span>
+            </div>
+        </div>
+    </div>
+    <div class="usecase">
+        <span>SMATBOT USECASES</span>
+        <h2>One Conversational BOT For All Your Business <br> Requirements</h2>
+        <p>Using multiple engagement tools to improve your business? This is the product you’ve been waiting <br> for.
+        </p>
+        <p>Bring your vision to life with just one customizable chatbot for any aspect of your organization.</p>
+        <p>let your creative juices flow faster and unlock many more uses of Smatbot!!</p>
+    </div>
+    <div class="smat_fields">
+        <div class="smat_fields1">
+            <div class="smat_fields_l">
+                <img src="https://s3.ap-south-1.amazonaws.com/custpostimages/real_estate_bot/leads.png" />
+            </div>
+            <div class="smat_fields_r">
+                <p class="line">LEADS</p>
+                <h3 class="headline">Lead Generation From Websites</h3>
+                <p class="text">Generating leads from web traffic is a big hassle. With AI winning against human
+                    marketing, SmatBot
+                    will support the lead nurturing process with gamified conversations, offers and additional
+                    information until customers are driven to share their information willingly. The leads will be
+                    shared in real time with your team.</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="./home_js.js"></script>
+</body>
+
+</html>
