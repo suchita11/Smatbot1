@@ -66,13 +66,16 @@ body,
     padding-inline-end: 10px !important;
 }
 
-#aff_res>ul>li>a {
+#aff_res>ul>li>a,a {
     color: #656565;
     text-decoration: none;
 }
 
 #aff_res>ul>li {
     margin: 10px 0px;
+}
+#aff_res>ul>li >a:hover{
+    color: blue;
 }
 
 #aff_res {
@@ -87,16 +90,22 @@ body,
     text-decoration: none;
     color: #656565;
 }
+.nav>ul>li>a:hover{
+    color: blue;
+}
 
 .freetrial_btn>button {
     background-color: #465DEF;
-    color: white;
+    color: white !important;
     height: 40px;
     width: 145px;
     border-radius: 5px;
     border: 1px solid #465DEF;
 }
-
+.freetrial_btn>button>a{
+    color: white;
+    font-weight: 600;
+}
 .request_btn>button {
     border: 2px solid #465DEF;
     height: 40px;
@@ -386,4 +395,45 @@ ul>li:last-child {
     font-size: 14px;
     font-weight: 400px;
     line-height: 20px;
+}
+
+.integrations{
+    width: 52%;
+    margin: 100px auto;
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.integrations >h1{
+    margin-bottom: 20px;
+}
+.integrations >p>a{
+    color: blue;
+}
+.integrations >img{
+    margin-top: 100px;
+}
+
+/* footer style */
+.footer{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer>table{
+  width: 100%;
+  margin: auto;
+  padding: 40px 100px;
+  border-spacing: 10px;
+  /* border: 1px solid gray; */
+  box-shadow: 0 1pt 6pt rgb(0 0 0 / 15%)
+  
+}
+.footer>table >td{
+    cellspacing :20px;
+}
+a:hover{
+    color: blue;
 }
