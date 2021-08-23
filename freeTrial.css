@@ -467,3 +467,123 @@ form::after {
     vertical-align: middle;
     border: 0;
 }
+
+/* header */
+#header {
+    /* border: 1px solid black; */
+    font-family: "Rajdhani", sans-serif;
+    height: 60px;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white !important;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    font-size: 16px;
+}
+
+.img {
+    height: 50px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav>ul {
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.remain_space {
+    margin-right: 50px;
+}
+
+.down-arrow {
+    position: relative;
+    top: 5px;
+
+}
+
+.nav>ul>li {
+    margin-right: 30px;
+    color: #656565;
+}
+
+#aff_res>ul {
+    list-style: none;
+    padding-inline-start: 5px !important;
+    padding-inline-end: 10px !important;
+}
+
+#aff_res>ul>li>a,a {
+    color: #656565;
+    text-decoration: none;
+}
+
+#aff_res>ul>li {
+    margin: 10px 0px;
+}
+#aff_res>ul>li >a:hover{
+    color: blue;
+}
+
+#aff_res {
+    position: fixed;
+    top: 56px;
+    right: 32%;
+    background-color: white;
+}
+
+.nav>ul>li>a {
+    outline: none;
+    text-decoration: none;
+    color: #656565;
+}
+.nav>ul>li>a:hover{
+    color: blue;
+}
+
+.freetrial_btn>button {
+    background-color: #465DEF;
+    color: white !important;
+    height: 40px;
+    width: 145px;
+    border-radius: 5px;
+    border: 1px solid #465DEF;
+}
+.freetrial_btn>button>a{
+    color: white;
+    font-weight: 600;
+}
+.request_btn>button {
+    border: 2px solid #465DEF;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul>li:last-child {
+    margin-right: 5px !important;
+}
+
+.display {
+    display: none;
+}

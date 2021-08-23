@@ -425,7 +425,7 @@ ul>li:last-child {
 .footer>table{
   width: 100%;
   margin: auto;
-  padding: 40px 100px;
+  padding: 40px 150px;
   border-spacing: 10px;
   /* border: 1px solid gray; */
   box-shadow: 0 1pt 6pt rgb(0 0 0 / 15%)
@@ -437,3 +437,15 @@ ul>li:last-child {
 a:hover{
     color: blue;
 }
+.fonticon{
+    font-family: fontawesome;
+}
+.icon_box{
+    margin-top: 20px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    color:#20A5E8;
+}
+
+/* footer style end */
