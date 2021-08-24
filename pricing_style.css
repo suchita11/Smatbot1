@@ -147,8 +147,9 @@ ul>li:last-child {
 }
 
 .prices_btn >button{
-    height: 30px;
-    margin: 5px;
+    height: 32px;
+    width: fit-content;
+    margin-top: 3px;
     background-color: white;
     text-decoration: none;
     border: 1px solid white;
@@ -278,7 +279,8 @@ ul>li:last-child {
     text-align: justify;
     font-size: 14px;
     font-weight: 400;
-    margin-top: 100px;
+    margin-top: 10px;
+    width: 100%;
 }
 .footer>table{
   width: 100%;
@@ -304,6 +306,64 @@ a:hover{
     display: flex;
     justify-content: space-between;
     color:#20A5E8;
+    font-size: 25px;
 }
 
 /* footer style end */
+
+.display{
+    display: none;
+}
+.mobile_input {
+    width: 420px;
+    height: 44px;
+    background-color: #7584E9;
+    border-radius: 5px;
+}
+
+.flag>img {
+    width: 70%;
+    margin: 20% 10%;
+    align-items: center;
+    float: left;
+}
+
+.flag {
+    width: 11.5%;
+    height: 44px;
+    float: left;
+    /* border: 1px solid red; */
+}
+
+#mobile_input {
+    height: 38px;
+    width: 60%;
+    float: left;
+    background-color: #7584E9;
+    border: 1px solid #7584E9;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none
+}
+.start_btn {
+    height: 44px;
+    width: 26%;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    border: white;
+    float: right;
+}
+.try{
+    background-color: #1273EB;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;margin-bottom: 40px !important;
+}

@@ -446,6 +446,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     color:#20A5E8;
+    font-size: 25px;
 }
 
 /* footer style end */

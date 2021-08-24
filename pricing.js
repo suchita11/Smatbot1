@@ -69,8 +69,9 @@ for (i = 0; i < acc.length; i++) {
         target.style.borderBottom = "1px solid white"
         panel.style.border = "1px solid Gray"
         panel.style.borderTop = "1px solid white"
-        var span = document.getElementsByClassName('float_r');
-        span[0].style.textContent = "&#xf0d7";
+        // var span = document.getElementsByClassName('float_r');
+        e.target.children[1].classList.toggle("display");
+        console.log(e.target.children)
         if (panel.style.display === "block") {
             panel.style.display = "none";
         } else {
