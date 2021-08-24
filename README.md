@@ -26,7 +26,7 @@ JavaScript
 
 People Contributed:- 
 ```
-Utkarsh 
+Utkarsh Kumar
 Harsh
 Suchita Salunkhe
 ```
