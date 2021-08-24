@@ -23,7 +23,6 @@ body,
 
 .img {
     height: 50px;
-
 }
 
 .nav {
@@ -58,6 +57,9 @@ body,
 .nav>ul>li {
     margin-right: 30px;
     color: #656565;
+}
+.nav>ul>li:first-child >a{
+    color: blue;
 }
 
 #aff_res>ul {

@@ -241,15 +241,55 @@
         .display {
             display: none;
         }
+
+        /* footer style */
+        .footer {
+            text-align: justify;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .footer>table {
+            width: 100%;
+            margin: auto;
+            padding: 40px 150px;
+            border-spacing: 10px;
+            /* border: 1px solid gray; */
+            box-shadow: 0 1pt 6pt rgb(0 0 0 / 15%)
+        }
+
+        .footer>table>td {
+            cellspacing: 20px;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        .fonticon {
+            font-family: fontawesome;
+        }
+
+        .icon_box {
+            margin-top: 20px;
+            margin-right: 40px;
+            display: flex;
+            justify-content: space-between;
+            color: #20A5E8;
+            font-size: 25px;
+        }
+
+        /* footer style end */
     </style>
 </head>
 
 <body>
     <div id="header">
         <div>
-            <img class="img"
-                src="https://s3.ap-south-1.amazonaws.com/custpostimages/sb_images/SB_logo_horizontal_text.png"
-                alt="smatbot" />
+            <a href="home.html">
+                <img class="img"
+                    src="https://s3.ap-south-1.amazonaws.com/custpostimages/sb_images/SB_logo_horizontal_text.png"
+                    alt="smatbot" /> </a>
         </div>
         <div class="remain_space"></div>
         <div class="nav">
@@ -323,6 +363,96 @@
             </div>
         </div>
         <button>Send Message</button>
+    </div>
+    <div class="footer">
+        <table>
+            <thead>
+                <tr>
+                    <th>PRODUCT</th>
+                    <th>COMPANY</th>
+                    <th>RESOURCES</th>
+                    <th>CHATBOT TEMPLATES</th>
+                    <th>CONTACT US</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#">WhatsApp</a></td>
+                    <td><a href="#">About Us </a></td>
+                    <td><a href="#">Contact Us</a></td>
+                    <td><a href="#">Lead Generation Templates</a></td>
+                    <td><a href="#">FeSo Social Media Private Limited</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">On-Premise</a></td>
+                    <td><a href="#">SmatSocial</a></td>
+                    <td><a href="#">Help center</a></td>
+                    <td><a href="#">Customer Support Templates</a></td>
+                    <td><a href="#">Subsidiary of ByteQuark Solutions.</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Arabic Chatbot</a></td>
+                    <td><a href="#">Services</a></td>
+                    <td><a href="#">Free guide</a></td>
+                    <td><a href="#">Education Templates</a></td>
+                    <td rowspan="2"><a href="#"><span class="fonticon">&#xf041 &nbsp</span>
+                            2th Floor, Ashoka HiTech Chambers Road No. 2,<br>
+                            Banjara Hills, opp. KBR Park,
+                            Hyderabad,<br> Telangana 500034</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">AI Services</a></td>
+                    <td><a href="#">Reviews</a></td>
+                    <td><a href="#">Blog</a></td>
+                    <td><a href="#">Real Estate Templates</a></td>
+                    <!-- <td><a href="#"></a></td> -->
+                </tr>
+                <tr>
+                    <td><a href="#">How it works</a></td>
+                    <td><a href="#">Our team</a></td>
+                    <td><a href="#">Youtube</a></td>
+                    <td><a href="#">E-Commerce Templates</a></td>
+                    <td><a href="#"><span class="fonticon">&#xf232 &nbsp</span> +91 4049520079</a></td>
+                </tr>
+                <tr>
+                    <td><a href="pricing.html">Pricing</a></td>
+                    <td><a href="#">Careers</a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"></a></td>
+                    <td><a href="#"><span class="fonticon">&#xf095 &nbsp</span> +91 9205308991</a></td>
+                </tr>
+                <tr>
+                    <td><a href="freeTrial.html">Signup</a></td>
+                    <td><a href="#">Privacy policy</a></td>
+                    <td><a></a></td>
+                    <td><a></a></td>
+                    <td><a href="#"><span class="fonticon">&#xf041 &nbsp</span> 265 Ponce De Leon Ave, Atlanta, GA,
+                            30308</a></td>
+                </tr>
+                <tr>
+                    <td><a href="login.html">Login</a></td>
+                    <td><a href="#">Terms & <br>Conditions</a></td>
+                    <td><a></a></td>
+                    <td><a></a></td>
+                    <td><a href="#"><span class="fonticon">&#xf095 &nbsp</span> +1 2179046040</a></td>
+                </tr>
+                <tr>
+                    <td><a></a></td>
+                    <td><a></a></td>
+                    <td><a></a></td>
+                    <td><a></a></td>
+                    <td><a href="#"><span class="fonticon">&#xf0e0 &nbsp</span>info@smatbot.com</a></td>
+                </tr>
+                <tr>
+                    <td><a></i></a></td>
+                    <td><a></a></td>
+                    <td><a></a></td>
+                    <td><a></a></td>
+                    <td class="icon_box"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i
+                            class="fa fa-linkedin"></i> <i class="fa fa-instagram"></i></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 <script>
