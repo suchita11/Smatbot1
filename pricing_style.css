@@ -308,6 +308,9 @@ a:hover{
     color:#20A5E8;
     font-size: 25px;
 }
+.btn1:hover{
+    filter: invert(1)
+}
 
 /* footer style end */
 
